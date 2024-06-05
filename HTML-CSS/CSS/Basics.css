@@ -1,0 +1,13 @@
+h4 {
+  background-color: aqua;
+}
+h5 {
+  border: 2px solid;
+}
+img {
+  height: 200px;
+  width: 150px;
+}
+h6 {
+  font-size: 50px;
+}
