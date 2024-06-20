@@ -1,0 +1,27 @@
+div#main {
+  border: 2px solid red;
+}
+div#header {
+  border: 2px solid green;
+  height: 50px;
+  margin: 10px;
+  text-align: center;
+}
+div#navBar {
+  border: 2px solid;
+  margin: 10px;
+  padding: 50px;
+  text-align: center;
+}
+div#imageSec {
+  border: 2px solid;
+  margin: 10px;
+  height: 50px;
+  text-align: center;
+}
+div#footer {
+  border: 2px solid;
+  margin: 10px;
+  height: 50px;
+  text-align: center;
+}

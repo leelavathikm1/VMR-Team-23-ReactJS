@@ -1,0 +1,42 @@
+div#main {
+  border: 1px solid;
+}
+div#header {
+  border: 1px solid;
+  height: 40px;
+  margin: 5px;
+  background: yellowgreen;
+}
+div#navBar {
+  border: 1px solid;
+  margin: 5px;
+  background: lightcoral;
+}
+li {
+  margin-right: 35px;
+  display: inline;
+  border-right: 1px dotted;
+}
+div#middleSection {
+  border: 1px solid;
+  margin: 5px;
+  overflow: auto;
+}
+div#imageSec {
+  float: left;
+  width: 300px;
+  border-right: 1px solid;
+  height: 100px;
+  text-align: center;
+  background-color: aqua;
+}
+div#listItems {
+  background: #247676;
+  height: 100px;
+}
+div#footer {
+  border: 1px solid;
+  margin: 5px;
+  height: 30px;
+  background: blue;
+}
