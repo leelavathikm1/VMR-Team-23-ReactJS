@@ -1,5 +1,6 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
 }
 div#headerSection {
   background-color: #333333;
@@ -22,7 +23,7 @@ strong {
   padding: 0;
   margin: 0;
 }
-p {
+#basicText p {
   margin: 0;
   font-size: 13px;
 }
@@ -32,7 +33,7 @@ nav {
   margin: 20px;
   background: gray;
 }
-li {
+nav ul li {
   display: inline;
   font-size: 11px;
   margin-right: 13px;
@@ -56,18 +57,105 @@ div#container-3 {
   width: 250px;
   margin-right: 25px;
 }
-.smallDivs figure img {
+.smallDivs figure {
   width: 245px;
+}
+.smallDivs figure img {
+  width: 240px;
+  border: 1px solid;
+  padding: 4px;
 }
 .smallDivs-3 {
   float: right;
   width: 250px;
 }
 .smallDivs-3 figure {
-  width: 260px;
-  margin: auto;
-  margin-top: 15px;
+  width: 250px;
 }
 .smallDivs-3 figure img {
-  width: 245px;
+  width: 240px;
+  border: 1px solid;
+  padding: 4px;
+}
+p#anchor {
+  color: orange;
+  float: right;
+  margin-top: 10px;
+  font-size: 12px;
+}
+#anchor a {
+  color: orange;
+  text-decoration: none;
+}
+div#articleSection {
+  width: 800px;
+  margin: auto;
+  overflow: auto;
+  margin-top: 15px;
+}
+article {
+  width: 355px;
+  float: left;
+  height: 250px;
+}
+aside {
+  float: right;
+}
+aside img {
+  width: 400px;
+  border: 1px solid;
+  padding: 4px;
+}
+h2 {
+  margin: 0;
+  color: lightseagreen;
+}
+p {
+  /* margin: 0; */
+  font-size: 14px;
+}
+div#sectionsContainer-5 {
+  background: gray;
+}
+#sectionsContainer-5 section {
+  width: 800px;
+  margin: auto;
+  overflow: auto;
+  background: darkgrey;
+}
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+section ul li {
+  line-height: 2;
+  border-bottom: 1px solid;
+  font-size: 13px;
+  color: #756617;
+}
+.sections {
+  width: 180px;
+  float: left;
+  margin-right: 15px;
+}
+.sections4 {
+  width: 180px;
+  float: right;
+}
+div#footerContainer-6 {
+  background: #1c0f0f;
+  margin: 0;
+}
+footer {
+  width: 800px;
+  margin: auto;
+  overflow: auto;
+  background: black;
+  color: white;
+}
+p#rightPara {
+  float: left;
+}
+p#leftPara {
+  float: right;
 }
