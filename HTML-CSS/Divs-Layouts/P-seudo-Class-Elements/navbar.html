@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      nav {
+        background: yellow;
+      }
+      li {
+        display: inline;
+        margin-right: 30px;
+      }
+      /* li:hover {
+        color: red;
+        background-color: blue;
+        border: 2px solid;
+        font-size: 30px;
+        padding: 3px;
+      } */
+      ul li:first-child {
+        color: red;
+        background-color: blue;
+        border: 2px solid;
+        font-size: 30px;
+        padding: 3px;
+      }
+      li:nth-child(4) {
+        color: orangered;
+      }
+      /* a:visited {
+        color: red;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- p-seudo class is used to define a special status for an element
+     ex. we style an element when a user mouse over it or visited , unvisit
+     for anchor tag links
+
+     syntex
+     selector: pseudo-class{
+     property:value
+     }
+
+     CSS Pseudo-class
+     :active , checked, enabled , first-Child, focus
+     :hover , invalid, disabled
+      -->
+    <nav>
+      <ul>
+        <li>List</li>
+        <li>List</li>
+        <li>List</li>
+        <li>List</li>
+        <li>List</li>
+        <li>List</li>
+      </ul>
+    </nav>
+    <br />
+    <hr />
+    <a href="https://www.netflix.com/">Netflix</a>
+  </body>
+</html>
