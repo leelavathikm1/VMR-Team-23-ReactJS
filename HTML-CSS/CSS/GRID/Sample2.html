@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #grid-container {
+        background-color: crimson;
+        display: grid;
+        height: 500px;
+        /* grid-template-columns: auto auto auto auto; */
+        grid-template-columns: repeat(4, auto);
+        /* grid-template-columns: 200px 200px auto 300px; */
+        /* grid-template-rows: 100px 200px; */
+        /* justify-content: space-evenly; */
+        /* justify-content: center; */
+        /* justify-content: start; */
+        /* align-items: center; */
+        align-content: space-between;
+
+        align-content: space-around;
+        gap: 10px;
+        /* padding: 10px; */
+      }
+      .Box {
+        background-color: aqua;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid-container">
+      <div class="Box">Item Details-1</div>
+      <div class="Box">Item Details-2</div>
+      <div class="Box">Item Details-3</div>
+      <div class="Box">Item Details-4</div>
+      <div class="Box">Item Details-5</div>
+      <div class="Box">Item Details-6</div>
+      <div class="Box">Item Details-7</div>
+      <div class="Box">Item Details-8</div>
+      <div class="Box">Item Details-9</div>
+      <div class="Box">Item Details-10</div>
+    </div>
+  </body>
+</html>
