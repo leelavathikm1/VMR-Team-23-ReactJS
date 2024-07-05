@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      span#a {
+        display: inline;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;
+        background-color: yellow;
+      }
+      span#b {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;
+        background-color: yellow;
+      }
+      span#c {
+        display: block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;
+        background-color: yellow;
+      }
+      img:hover {
+        display: none;
+      }
+      #btn {
+        border: 1px solid;
+      }
+      #btn button {
+        display: none;
+      }
+      #btn button:hover {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Display Properties</h1>
+    <br />
+
+    <img src="./download.jpeg" alt="" />
+    <hr />
+    <div id="btn">
+      hover on div
+      <button>Submit</button>
+    </div>
+
+    <h2>Display:Inline</h2>
+    <div>
+      In publishing and graphic design, Lorem ipsum is a placeholder text
+      commonly <span id="a">used to</span> <span id="a">demonstrate</span>
+      <span id="a">the visual</span> form of a document or a typeface without
+      relying on meaningful content. Lorem ipsum may be used as a placeholder
+      before the final copy is available
+    </div>
+
+    <h2>Display:Inline-Block</h2>
+    <div>
+      In publishing and graphic design, Lorem ipsum is a placeholder text
+      commonly <span id="b">used to</span> <span id="b">demonstrate</span>
+      <span id="b">the visual</span> form of a document or a typeface without
+      relying on meaningful content. Lorem ipsum may be used as a placeholder
+      before the final copy is available
+    </div>
+
+    <h2>Display-Block</h2>
+    <div>
+      In publishing and graphic design, Lorem ipsum is a placeholder text
+      commonly <span id="c">used to</span> <span id="c">demonstrate</span>
+      <span id="c">the visual</span> form of a document or a typeface without
+      relying on meaningful content. Lorem ipsum may be used as a placeholder
+      before the final copy is available
+    </div>
+
+    <br />
+    <hr />
+  </body>
+</html>
