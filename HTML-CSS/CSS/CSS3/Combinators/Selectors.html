@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* * star is global selector */
+      /* Element Selector */
+      div {
+        width: 300px;
+        height: 100px;
+        background-color: blue;
+      }
+      /* Id Selector */
+      #myDiv {
+        width: 300px;
+        height: 100px;
+        background-color: rgb(11, 175, 41);
+      }
+      /* Class Selector */
+      .parent {
+        width: 300px;
+        height: 100px;
+        background-color: rgb(152, 10, 93);
+      }
+      /* Group Selector */
+      div,
+      #myDiv,
+      .parent {
+        border: 2px solid;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Iam From Combinators</div>
+    <div id="myDiv"></div>
+    <div class="parent"></div>
+  </body>
+</html>

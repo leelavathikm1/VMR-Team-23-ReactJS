@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 1. descendent selector (space) */
+      /* div p {
+        color: red;
+      } */
+
+      /* 2. Child Selector (>) */
+      div > p {
+        color: blue;
+      }
+
+      /*  3. Adjacent selector (+) */
+      /* div + p {
+        color: greenyellow;
+      } */
+
+      /* 4. General Sibling Selector (~) */
+      div ~ p {
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Four Different Combinators
+     1. descendent selector (space)
+     2. Child Selector (>)
+     3. Adjacent selector (+)
+     4. General Sibling Selector (~) -->
+
+    <div>
+      <p>Paragraph 1 in the Div</p>
+      <p>paragraph 2 in the Div</p>
+    </div>
+
+    <p>paragraph 3 After a Div</p>
+    <p>paragraph 4 after a div</p>
+  </body>
+</html>

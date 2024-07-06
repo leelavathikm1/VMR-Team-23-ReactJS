@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        counter-reset: section;
+      }
+      h2::before {
+        counter-increment: section;
+        content: " Flower " counter(section) " : ";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Using CSS Counters</h1>
+
+    <h2>Rose</h2>
+    <h2>Lotus</h2>
+    <h2>Lilly</h2>
+    <h2>Jasmine</h2>
+    <h2>Marigold</h2>
+  </body>
+</html>
