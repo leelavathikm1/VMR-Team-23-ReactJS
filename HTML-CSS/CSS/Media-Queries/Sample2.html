@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      header {
+        background-color: blue;
+        color: aliceblue;
+        padding: 15px;
+      }
+      .row-2::after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+      .menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        padding: 7px;
+        margin-bottom: 7px;
+        background-color: brown;
+        color: aliceblue;
+      }
+      aside {
+        background-color: aqua;
+        padding: 15px;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+      }
+      footer {
+        background-color: chartreuse;
+        text-align: center;
+        padding: 15px;
+        font-size: 12px;
+      }
+      /* For Desktop */
+      .col-1 {
+        width: 8.33%;
+      }
+      .col-2 {
+        width: 16.33%;
+      }
+      .col-3 {
+        width: 25%;
+        float: left;
+      }
+      /* .col-4 {
+        width: 25%;
+      } */
+      .col-5 {
+        width: 30.33%;
+      }
+      .col-6 {
+        width: 50%;
+      }
+      .col-7 {
+        width: 60.33%;
+      }
+      .col-8 {
+        width: 70.33%;
+      }
+      .col-9 {
+        width: 80.33%;
+      }
+      .col-10 {
+        width: 100%;
+      }
+      @media only screen and (max-width: 768px) {
+        /* For Mobiles */
+        [class*="col-"] {
+          width: 100%;
+        }
+      }
+
+      @media only screen and (max-width: 760px) {
+        body {
+          background-color: darkmagenta;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row-1">
+      <h1>Thirumala</h1>
+    </div>
+    <div class="row-2">
+      <div class="col-3 menu">
+        <ul>
+          <li>Home</li>
+          <li>Darshan</li>
+          <li>Gallery</li>
+          <li>Places</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="col-6">
+        <h1>The holy Place</h1>
+        <p>
+          Tirumala is a spiritual place in Tirupati district of the Indian state
+          of Andhra Pradesh. It is one of the neighbourhoods of the Tirupati
+          city
+        </p>
+      </div>
+      <div class="col-3 right">
+        <h1>Near by Visiting Places</h1>
+        <aside>
+          <h2>Thiruchanur</h2>
+          <p>Padmavathi Temple</p>
+          <h2>Govindaraswamy Temple</h2>
+          <p>Vaikuntapuram</p>
+          <h2>Reach By Bus</h2>
+          <h2>Reach By Railway Station</h2>
+          <h2>Near by Airport</h2>
+        </aside>
+      </div>
+      <!-- Footer -->
+      <footer>
+        <p>
+          The town is a part of Tirupati Urban Development Authority and located
+          in Tirupati mandal of Tirupati revenue division
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
